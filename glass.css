@@ -1,26 +1,22 @@
 body{
     height: 100vh;
     display: flex;
-    /* overflow: hidden; */
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     background-color: #141225;
 }
 .inFormBackground{
     margin: 0rem 2rem;
-   
-  
 }
 .inFormBackground,
 .inLoginForm{
     width: 25rem;
     height: 30rem;
     max-width: 320px;
-    border: 5px solid yellow;
     position: relative;
 }
 .circle{
-    border: 5px solid #e5e5e5;
     width: 10rem;
     height: 10rem;
     padding: fixed; 
@@ -38,8 +34,8 @@ body{
     background: linear-gradient(164deg,#144e7cfc,#1877f2);
 }
 .inLoginForm form {
-    /* bottom: 75px;
-    left: 160px; */
+    bottom: 75px;
+    left: 160px;
     width: 16rem;
     height: 24rem;
     max-width: 320px;
@@ -49,8 +45,7 @@ body{
     backdrop-filter: blur(5px);
     transform: translate(-50%,-50%);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    /* border: 2px solid rgba(234, 222, 222, 0.1); */
-    border: 5px solid white;
+    border: 2px solid rgba(234, 222, 222, 0.1);
     background-color: rgba(255,255,255,.13);
 }
 form *{
